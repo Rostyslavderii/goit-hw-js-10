@@ -1,7 +1,7 @@
 import './css/styles.css';
 import debounce from 'lodash.debounce';
 
-import { fetchCountries } from './js/fetchlist';
+import { fetchCountries } from './js/fetchList';
 
 const DEBOUNCE_DELAY = 300;
 const inputValue = document.querySelector('#search-box');
